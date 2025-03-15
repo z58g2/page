@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+html {
+  min-height: 100%;
+  background: radial-gradient(#966, #633);
+  background-attachment: fixed;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  font-family: 'Kiwi Maru', serif;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: min(700px, 95%);
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+nav a {
+  padding: 0.6rem 1rem;
+  border: 2px solid white;
+  border-radius: 6px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+details {
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 400;
+}
